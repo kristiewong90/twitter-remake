@@ -1,0 +1,68 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// @import "utility";
+// @import "colours";
+
+
+
+body {
+    background: #e6ecf0;
+}
+
+.hero {
+    height: 300px;
+    background: white;
+    border: 5px solid #e6ecf0;
+}
+
+.container-one {
+    display: flex;
+    border: 5px solid #e6ecf0;
+}
+
+.users, .tweets img {
+    border-radius: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.users {
+    background: white;
+    border: 5px solid #e6ecf0;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.tweets {
+    flex: 3;
+    background: white;
+    border: 5px solid #e6ecf0;
+}
+
+.tweets a, h4 {
+    display: inline-block;
+}
+
+.profile {
+    height: 200px;
+    flex:1;
+}
+
+.new-to-twitter {
+    background: white;
+    border: 5px solid #e6ecf0;
+
+}
